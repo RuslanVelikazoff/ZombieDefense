@@ -1,12 +1,15 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinData : MonoBehaviour
+public class ShopData : MonoBehaviour
 {
-    public static CoinData Instance;
+    public static ShopData Instance;
+    
+    private bool[] _buyGun;
 
-    private int _coin;
-
-    private const string SaveKey = "MainSaveCoin";
+    private const string SaveKey = "MainSaveShop";
 
     private void Awake()
     {
@@ -21,7 +24,7 @@ public class CoinData : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
     }
-
+    
     private void Start()
     {
         Load();
@@ -49,7 +52,7 @@ public class CoinData : MonoBehaviour
     {
         var data = SaveManager.Load<GameData>(SaveKey);
 
-        _coin = data.coin;
+        _buyGun = data.buyGun;
     }
 
     private void Save()
@@ -62,20 +65,20 @@ public class CoinData : MonoBehaviour
     {
         var data = new GameData()
         {
-            coin = _coin
+            buyGun = _buyGun
         };
 
         return data;
     }
 
-    public int GetCoinAmount()
+    public bool GetBuyGun(int index)
     {
-        return _coin;
+        return _buyGun[index];
     }
 
-    public void MinusCoin(int amount)
+    public void OpenGun(int index)
     {
-        _coin -= amount;
+        _buyGun[index] = true;
         Save();
     }
 }
