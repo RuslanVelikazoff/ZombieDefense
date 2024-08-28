@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainPanel : MonoBehaviour
@@ -29,7 +30,8 @@ public class MainPanel : MonoBehaviour
             startButton.onClick.RemoveAllListeners();
             startButton.onClick.AddListener(() =>
             {
-                Debug.Log("StartButton");
+                Time.timeScale = 1f;
+                SceneManager.LoadScene(1);
             });
         }
 

@@ -78,4 +78,10 @@ public class CoinData : MonoBehaviour
         _coin -= amount;
         Save();
     }
+
+    public void PlusCoin(int amount)
+    {
+        _coin += amount;
+        Save();
+    }
 }

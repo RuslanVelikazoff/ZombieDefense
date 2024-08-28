@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2b5ebee0e3af0d545a979c5d22f467c6
+guid: 65883af6b804cd74fbe71bebee5d451c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,133 +127,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: PlayerFire2
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 483
-        width: 244
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27da0e03cc0920645a0e7dbea8e2c3de
-      internalID: -331825947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player2Movement1
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 1405
-        width: 188
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3ceec8946b0be8419a67df44cffd105
-      internalID: -1718222271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player2Movement2
-      rect:
-        serializedVersion: 2
-        x: 713
-        y: 1405
-        width: 188
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 369d3045905c1f34bbfbc12ace3c60fc
-      internalID: 1392971077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player2Movement3
-      rect:
-        serializedVersion: 2
-        x: 927
-        y: 1406
-        width: 188
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e669f858b64658a4eabf85997b5cada7
-      internalID: 1143470012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player2Movement4
-      rect:
-        serializedVersion: 2
-        x: 1129
-        y: 1409
-        width: 188
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 409084081fbc8724899b9d2d5861fa16
-      internalID: 553732160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player2Movement5
-      rect:
-        serializedVersion: 2
-        x: 1328
-        y: 1409
-        width: 188
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6957cc6cf79534149957bada3877abcb
-      internalID: -1060421785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -264,13 +138,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Player2Movement1: -1718222271
-      Player2Movement2: 1392971077
-      Player2Movement3: 1143470012
-      Player2Movement4: 553732160
-      Player2Movement5: -1060421785
-      PlayerFire2: -331825947
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
