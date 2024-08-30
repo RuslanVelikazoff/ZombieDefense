@@ -72,6 +72,7 @@ public class Player : MonoBehaviour
     {
         if (!isFire)
         {
+            AudioManager.Instance.Play("Fire");
             StartCoroutine(AttackCO());
 
             GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
@@ -87,5 +88,10 @@ public class Player : MonoBehaviour
 
         isFire = false;
         animator.SetBool("isFire", isFire);
+    }
+
+    public void SetPlayerAnimator(Animator animator)
+    {
+        this.animator = animator;
     }
 }

@@ -1505,13 +1505,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Theme
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 971cf196ec73c48499794ef41f52808a, type: 3}
+    loop: 1
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  - name: Fire
+    clip: {fileID: 8300000, guid: afe17789da631344ea2b3aeebfa90aab, type: 3}
     loop: 0
     volume: 0
     pitch: 0
     source: {fileID: 0}
-  - name: Test
-    clip: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: 25bf8d16c5215a84ebed82dcb542b417, type: 3}
     loop: 0
     volume: 0
     pitch: 0

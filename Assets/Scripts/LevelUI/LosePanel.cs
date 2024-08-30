@@ -37,7 +37,7 @@ public class LosePanel : MonoBehaviour
             menuButton.onClick.AddListener(() =>
             {
                 CoinData.Instance.PlusCoin(coin);
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(0);
             });
         }
     }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -15,6 +16,11 @@ public class GameManager : MonoBehaviour
         Instance = this;
     }
 
+    private void Start()
+    {
+        Time.timeScale = 1f;
+    }
+
     public void PauseGame()
     {
         Time.timeScale = 0f;
@@ -23,6 +29,7 @@ public class GameManager : MonoBehaviour
 
     public void LoseGame()
     {
+        AudioManager.Instance.Play("Lose");
         Time.timeScale = 0f;
         losePanel.SetActive(true);
     }

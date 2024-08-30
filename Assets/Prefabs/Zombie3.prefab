@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 4489595663496711832}
-  speed: -4
+  speed: -2.5
   hitPoint: 2
 --- !u!70 &4489595663496711833
 CapsuleCollider2D:
