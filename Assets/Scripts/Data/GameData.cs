@@ -6,7 +6,7 @@ public class GameData
 
     public GameData()
     {
-        coin = 200000;
+        coin = 0;
 
         buyGun[0] = true;
         buyGun[1] = false;
