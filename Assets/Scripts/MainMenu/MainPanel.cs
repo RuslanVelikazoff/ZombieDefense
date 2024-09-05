@@ -31,7 +31,7 @@ public class MainPanel : MonoBehaviour
             startButton.onClick.AddListener(() =>
             {
                 Time.timeScale = 1f;
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
             });
         }
 

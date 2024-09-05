@@ -40,7 +40,7 @@ public class PausePanel : MonoBehaviour
             restartButton.onClick.RemoveAllListeners();
             restartButton.onClick.AddListener(() =>
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
                 CoinData.Instance.PlusCoin(coin);
             });
         }
@@ -50,7 +50,7 @@ public class PausePanel : MonoBehaviour
             menuButton.onClick.RemoveAllListeners();
             menuButton.onClick.AddListener(() =>
             {
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(1);
                 Time.timeScale = 1f;
                 CoinData.Instance.PlusCoin(coin);
             });

@@ -27,7 +27,7 @@ public class LosePanel : MonoBehaviour
             restartButton.onClick.AddListener(() =>
             {
                 CoinData.Instance.PlusCoin(coin);
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
             });
         }
 
@@ -37,7 +37,7 @@ public class LosePanel : MonoBehaviour
             menuButton.onClick.AddListener(() =>
             {
                 CoinData.Instance.PlusCoin(coin);
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(1);
             });
         }
     }
